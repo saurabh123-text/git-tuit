@@ -6,9 +6,18 @@ Git-
 Devloper-
     Git was created by Linus Torvalds in 2005 for development of the Linux kernel.
 
+Gitignore file  // google search (https://git-scm.com/docs/gitignore)
+	A . gitignore file is a plain text file where each line contains a pattern for 
+	files/directories to ignore. ... However, you can put it in any folder in the
+	repository and you can also have multiple . gitignore files. 
+	The patterns in the files are relative to the location of that .
+
+Commands---
 git status // check status
 git --version //check version
-git add . // add change 
+git add -A  // Stages All change
+git add . // add change (Stages new and modified ,without change)
+git add -u //stages modified without new
 git commit -m "Change GitHub.txt" // commit and change file
 git log // check status and user information and change
 git config --global user.name "------" //add user
@@ -18,3 +27,15 @@ git init // intization git
 git remote add origin // add origin of git floder
 git push -u origin master // push document in github repostatry
 git diff GitHub.txt //check change in file
+git diff --staged GitHub.txt// show change  in file
+git reset GitHub.txt // Reset file
+git checkout GitHub.txt // come in before commit
+git pull // pull remote directory
+git clone SHH urlr . // download github projects(. is opetnal when . not include then it create new folder)
+touch .gitgnore   // Create file for .gitgnore name
+ls -la // show all file in folder
+
+
+
+
+

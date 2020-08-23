@@ -17,3 +17,4 @@ git config --global // used to add
 git init // intization git
 git remote add origin // add origin of git floder
 git push -u origin master // push document in github repostatry
+git diff GitHub.txt //check change in file

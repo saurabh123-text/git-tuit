@@ -6,3 +6,11 @@ Git-
 Devloper-
     Git was created by Linus Torvalds in 2005 for development of the Linux kernel.
 
+git status // check status
+git --version //check version
+git add . // add change 
+git commit -m "Change GitHub.txt" // commit and change file
+git log // check status and user information
+git init // intization git
+git remote add origin // add origin of git floder
+git push -u origin master // push document in github repostatry

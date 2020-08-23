@@ -10,7 +10,10 @@ git status // check status
 git --version //check version
 git add . // add change 
 git commit -m "Change GitHub.txt" // commit and change file
-git log // check status and user information
+git log // check status and user information and change
+git config --global user.name "------" //add user
+git config --global user.email "------" //add email
+git config --global // used to add 
 git init // intization git
 git remote add origin // add origin of git floder
 git push -u origin master // push document in github repostatry

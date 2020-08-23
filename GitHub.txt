@@ -35,6 +35,20 @@ git clone SHH urlr . // download github projects(. is opetnal when . not include
 touch .gitgnore   // Create file for .gitgnore name
 ls -la // show all file in folder
 
+Branching ----
+	git branch  // check number of branch
+	git branch login-system  // create new branch (name = login-system change)
+	git checkout login-system // move to one branch to another (defult master)
+	gti status // check status
+	git add . // add data 
+	git commit -m "Add new branch" // save the change data
+	git push -u origin login-system // push data in github.com
+	git checkout master // move one branch to another
+Delete branch--
+	git branch -d login-system // delete only branch
+	git push origin --delete login-system // delete over all branch
+
+
 
 
 
